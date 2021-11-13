@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btnCreate, btnFetch;
 
     RequestQueue requestQueue;
-    private static final String URL1 = "http://192.168.0.16:3000/v1/user/";
+    private static final String URL1 = "http://10.0.2.2:3001/v1/user/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
