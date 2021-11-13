@@ -135,7 +135,6 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                //params.put("id", id);
                 params.put("name", name);
                 params.put("email", email);
                 params.put("password", password);
