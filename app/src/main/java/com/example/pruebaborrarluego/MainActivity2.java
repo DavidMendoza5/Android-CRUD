@@ -74,7 +74,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
                             jsonObject = response.getJSONObject(i);
 
                             et1Name.setText(jsonObject.getString("name"));
-                            et1Password.setText(jsonObject.getString("name"));
+                            et1Password.setText(jsonObject.getString("password"));
                             et1Email.setText(jsonObject.getString("email"));
                             et1Phone.setText(jsonObject.getString("phone"));
 
